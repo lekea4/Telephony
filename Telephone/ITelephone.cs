@@ -11,14 +11,17 @@ namespace Telephony.Telephone
 
         string Keypad { get; set; }
 
-         char RingTone { get; set; }
+        char RingTone { get; set; }
         char Model { get; }
 
         void MakeVoiceCall();
 
+
         void RecieveVoiceCall();
 
+
         void ConnectToService();
+        
 
         void ConnectToPower();
 

@@ -9,13 +9,15 @@ namespace Telephony.Phone
 {
     interface IPhone : ITelephone
     {
-        string Battery { get; }
+        string Battery { get; set; }
         string Screen { get; set; }
         string SimHolder { get; set; }
 
         void Sms();
 
+
         void Charging();
+        
 
     }
 }
