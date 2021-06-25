@@ -14,7 +14,7 @@ namespace Telephony.Phone
 
         public string PhoneName
         {
-            get => _phoneName
+            get => _phoneName;
         }
 
         public string PhoneBrand
